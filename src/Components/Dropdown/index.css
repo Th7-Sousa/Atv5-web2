@@ -1,0 +1,29 @@
+.lista-suspensa label{
+    display: block;
+    margin-bottom: 8px;
+    font-size: 24px;
+}
+
+.lista-suspensa select{
+    background-color: #fff;
+    box-shadow: 10px 10px 30px rgba(0,0,0,0.06);
+    width: 100%;
+    border: none;
+    font-size: 24px;
+    padding: 24px;
+    box-sizing: border-box;
+    animation: selec linear infinite 1s;
+}
+@keyframes selec {
+    0%{
+        box-shadow: 40px 20px 50px rgba(231, 81, 6, 0.06);
+        border: dashed 1px #e34d4d;
+    } 50%{
+        box-shadow: 40px 50px 50px rgba(245, 55, 8, 0.06);
+        border: dashed 2px #eb1010;
+    }
+    100%{
+        box-shadow: 40px 20px 40px rgba(245, 55, 8, 0.06);
+        border: dashed 1px #d56408d7;
+    }
+}

@@ -1,0 +1,31 @@
+.formulario{
+    display: flex;
+    justify-content: center;
+    margin: 80px 0;
+    outline: none;
+    transition: 0.5s;
+    cursor: pointer;
+    animation: selec linear infinite 3s;
+}
+.formulario .form{
+    max-width: 80%;
+    background-color: #a09a9a;
+    border-radius: 20px;
+    padding: 35px 65px;
+    box-shadow: 8px 8px 16px rgba(0,0,0,0.08);
+   
+}
+
+@keyframes selec {
+    0%{
+        box-shadow: 40px 20px 50px rgba(231, 81, 6, 0.06);
+   
+    } 50%{
+        box-shadow: 40px 50px 50px rgba(245, 55, 8, 0.06);
+   
+    }
+    100%{
+        box-shadow: 40px 20px 40px rgba(245, 55, 8, 0.06);
+
+    }
+}
