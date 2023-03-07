@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Atv5-web2/static/css/main.675a0cc0.css",
+    "main.js": "/Atv5-web2/static/js/main.af71fa9c.js",
+    "static/media/fundo.png": "/Atv5-web2/static/media/fundo.634e6bd472eff6edd80e.png",
+    "index.html": "/Atv5-web2/index.html",
+    "main.675a0cc0.css.map": "/Atv5-web2/static/css/main.675a0cc0.css.map",
+    "main.af71fa9c.js.map": "/Atv5-web2/static/js/main.af71fa9c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.675a0cc0.css",
+    "static/js/main.af71fa9c.js"
+  ]
+}
